@@ -27,6 +27,7 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait">
         </activity>
+
         <activity
             android:name=".DisplayItem"
             android:label="@string/app_name"
@@ -34,6 +35,14 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait">
         </activity>
+        <activity
+            android:name=".BunkM"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait">
+        </activity>
+
     </application>
 
 </manifest>

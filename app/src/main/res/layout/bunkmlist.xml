@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <ListView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/bunkListView"
+        android:divider="#d9d9d9"
+        android:dividerHeight="2dp"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button">
+    </ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No Items Available To Display"
+        android:id="@+id/textView3"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:gravity="center"/>
+</FrameLayout>

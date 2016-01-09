@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int TIME_INTERVAL = 2000;
     private long mBackPressed;
-    Button button;
+    Button button,bunkbutton;
 
 
     @Override
@@ -31,12 +31,21 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         button=(Button)findViewById(R.id.button2);
+        bunkbutton=(Button)findViewById(R.id.button3);
 
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, DisplayItem.class);
+                startActivity(intent);
+            }
+        });
+        bunkbutton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, BunkM.class);
                 startActivity(intent);
             }
         });

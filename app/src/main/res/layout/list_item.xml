@@ -13,7 +13,8 @@
         android:layout_marginLeft="?android:attr/listPreferredItemPaddingLeft"
         android:layout_marginTop="8dip"
         android:layout_marginRight="100dip"
-        android:textAppearance="?android:attr/textAppearanceListItem"/>
+        android:textAppearance="?android:attr/textAppearanceListItem"
+        />
 
     <TextView android:id="@android:id/text2"
         android:layout_width="match_parent"
@@ -22,7 +23,8 @@
         android:layout_below="@android:id/text1"
         android:layout_marginRight="100dip"
         android:layout_alignLeft="@android:id/text1"
-        android:layout_alignStart="@android:id/text1"/>
+        android:layout_alignStart="@android:id/text1"
+        android:textColor="#000000"/>
 
     <com.example.karthick.bunkmanager.CircleDisplay
         android:id="@+id/circleDisplay"

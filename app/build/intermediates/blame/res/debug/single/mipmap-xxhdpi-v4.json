@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/red_thumb_pressed.png",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/mipmap-xxhdpi/red_thumb_pressed.png"
+    },
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/red_thumb_default.png",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/mipmap-xxhdpi/red_thumb_default.png"
+    },
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/green_thumb_default.png",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/mipmap-xxhdpi/green_thumb_default.png"
+    },
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/green_thumb_pressed.png",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/mipmap-xxhdpi/green_thumb_pressed.png"
+    },
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/blue_thumb_default.png",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/mipmap-xxhdpi/blue_thumb_default.png"
+    },
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/blue_thumb_pressed.png",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/mipmap-xxhdpi/blue_thumb_pressed.png"
+    }
+]

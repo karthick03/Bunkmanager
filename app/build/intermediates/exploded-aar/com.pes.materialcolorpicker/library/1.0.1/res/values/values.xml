@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Simo/GitHub/android-material-color-picker-dialog/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="materialcolorpicker__black">#000000</color>
+    <color name="materialcolorpicker__blue">#2196f3</color>
+    <color name="materialcolorpicker__dialogcolor">#009688</color>
+    <color name="materialcolorpicker__dribble">#ea4c89</color>
+    <color name="materialcolorpicker__dribbledark">#c32361</color>
+    <color name="materialcolorpicker__green">#4caf50</color>
+    <color name="materialcolorpicker__grey">#b3b3b3</color>
+    <color name="materialcolorpicker__lightgrey">#d9d9d9</color>
+    <color name="materialcolorpicker__red">#f44336</color>
+    <color name="materialcolorpicker__white">#ffffff</color>
+    <!-- From: file:/C:/Users/Simo/GitHub/android-material-color-picker-dialog/library/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="materialcolorpicker__activity_horizontal_margin">16dp</dimen>
+    <dimen name="materialcolorpicker__activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Users/Simo/GitHub/android-material-color-picker-dialog/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="materialcolorpicker__app_name">Android Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__btnSelectColor">Select</string>
+    <string name="materialcolorpicker__descLib">Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__errHex">Hex Code Format incorrect</string>
+    <string name="materialcolorpicker__inputColor">Color: </string>
+    <!-- From: file:/C:/Users/Simo/GitHub/android-material-color-picker-dialog/library/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="materialcolorpicker__AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,45 @@
+[
+    {
+        "outputFile": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/aravind/Downloads/Bunkmanager/app/src/main/res/values-w820dp/dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 57,
+                        "endOffset": 344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 78,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/values-w820dp/values-w820dp.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 203,
+                        "endColumn": 78,
+                        "endOffset": 277
+                    }
+                }
+            }
+        ]
+    }
+]

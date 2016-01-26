@@ -2478,15 +2478,22 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f060011;
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int action_settings=0x7f060019;
-        public static final int app_name=0x7f06001a;
-        public static final int appbar_scrolling_view_behavior=0x7f06001b;
-        public static final int character_counter_pattern=0x7f06001c;
+        public static final int add_to_db=0x7f06001a;
+        public static final int app_name=0x7f06001b;
+        public static final int appbar_scrolling_view_behavior=0x7f06001c;
+        public static final int bunk=0x7f06001d;
+        public static final int character_counter_pattern=0x7f06001e;
+        public static final int credits=0x7f06001f;
+        public static final int credits_input_error=0x7f060020;
+        public static final int display_subjects=0x7f060021;
         public static final int materialcolorpicker__app_name=0x7f060014;
         public static final int materialcolorpicker__btnSelectColor=0x7f060015;
         public static final int materialcolorpicker__descLib=0x7f060016;
         public static final int materialcolorpicker__errHex=0x7f060017;
         public static final int materialcolorpicker__inputColor=0x7f060018;
         public static final int status_bar_notification_info_overflow=0x7f060013;
+        public static final int subject_input_error=0x7f060022;
+        public static final int subject_name=0x7f060023;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f09007f;

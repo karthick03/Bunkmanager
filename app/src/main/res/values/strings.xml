@@ -6,4 +6,6 @@
     <string name="add_to_db">Add to database</string>
     <string name="display_subjects">Display subjects with percentage</string>
     <string name="bunk">BUNK!</string>
+    <string name="subject_input_error">Enter a valid name</string>
+    <string name="credits_input_error">Enter a valid credit</string>
 </resources>

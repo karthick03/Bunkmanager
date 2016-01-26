@@ -15,7 +15,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Display subjects with percentage"
+        android:text="@string/display_subjects"
         android:id="@+id/button2"
         android:layout_marginTop="111dp"
         android:layout_alignParentTop="true"
@@ -24,7 +24,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="BUNK!"
+        android:text="@string/bunk"
         android:id="@+id/button3"
         android:layout_centerVertical="true"
         android:layout_alignRight="@+id/button2"

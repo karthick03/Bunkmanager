@@ -28,42 +28,63 @@ public class AddItem extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add);
 
-        et1=(EditText)findViewById(R.id.editText);
-        et2=(EditText)findViewById(R.id.editText2);
-        button=(Button)findViewById(R.id.button);
+        et1=(EditText)findViewById(R.id.editText);//subject name
+        et2=(EditText)findViewById(R.id.editText2);//credits
+        button=(Button)findViewById(R.id.button);//add to database button
 
 
         button.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
-                if (et1.getText().toString().matches("") || et2.getText().toString().matches("")) {
-                    Toast.makeText(AddItem.this,"Please enter a valid subject name or credits",Toast.LENGTH_LONG).show();
-                    return;
-                }
-                else {
-                    final ColorPicker cp = new ColorPicker(AddItem.this, 63, 81, 181);
-                    cp.show();
+                    validate_entry();
+            }
+        });
+    }
+    public boolean validate_sub(){
+        if (et1.getText().toString().trim().isEmpty()) {
 
-                    Button okColor = (Button) cp.findViewById(R.id.okColorButton);
-                    okColor.setOnClickListener(new View.OnClickListener() {
-                        @Override
-                        public void onClick(View v) {
-                            int selectedColorRGB = cp.getColor();
-                            String hexColor = String.format("#%06X", (0xFFFFFF & selectedColorRGB));
-                            cp.dismiss();
+            et1.setError(getString(R.string.subject_input_error));
+            return false;
+        }
+        return true;
+    }
+    public boolean validate_credits(){
+        if(et2.getText().toString().isEmpty()||(Integer.parseInt(et2.getText().toString())>=5)){
+            et2.setError(getString(R.string.credits_input_error));
+            return false;
+        }
+        return true;
+    }
+    public void validate_entry()
+    {
+        if(!validate_sub())
+        {
+            return;
+        }
+        if(!validate_credits()){
+                return;
+        }
 
-                            sampleDB =  openOrCreateDatabase(dbName, MODE_PRIVATE, null);
-                            sampleDB.execSQL("CREATE TABLE IF NOT EXISTS " + tableName + " (sub VARCHAR,credits VARCHAR,color VARCHAR);");
-                            sampleDB.execSQL("INSERT INTO " + tableName + "(sub,credits,color) Values ('" + et1.getText().toString() + "','" + et2.getText().toString() + "','" + hexColor+ "');");
-                            Toast.makeText(AddItem.this,"Successfully Entered!!!",Toast.LENGTH_SHORT).show();
+        final ColorPicker cp = new ColorPicker(AddItem.this, 63, 81, 181);
+        cp.show();
 
-                            finish();
-                            Intent intent = new Intent(AddItem.this, MainActivity.class);
-                            startActivity(intent);
-                        }
-                    });
-                }
+        Button okColor = (Button) cp.findViewById(R.id.okColorButton);
+        okColor.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                int selectedColorRGB = cp.getColor();
+                String hexColor = String.format("#%06X", (0xFFFFFF & selectedColorRGB));
+                cp.dismiss();
+
+                sampleDB =  openOrCreateDatabase(dbName, MODE_PRIVATE, null);
+                sampleDB.execSQL("CREATE TABLE IF NOT EXISTS " + tableName + " (sub VARCHAR,credits VARCHAR,color VARCHAR);");
+                sampleDB.execSQL("INSERT INTO " + tableName + "(sub,credits,color) Values ('" + et1.getText().toString() + "','" + et2.getText().toString() + "','" + hexColor+ "');");
+                Toast.makeText(AddItem.this,"Successfully Entered!!!",Toast.LENGTH_SHORT).show();
+
+                finish();
+                Intent intent = new Intent(AddItem.this, MainActivity.class);
+                startActivity(intent);
             }
         });
     }

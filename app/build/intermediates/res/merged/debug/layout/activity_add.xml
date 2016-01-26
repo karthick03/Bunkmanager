@@ -18,7 +18,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:hint="Subject name"
+            android:hint="@string/subject_name"
             android:maxLines="1"
             android:ems="10"
             android:id="@+id/editText"
@@ -37,7 +37,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Credits"
+            android:hint="@string/credits"
             android:inputType="number"
             android:id="@+id/editText2"/>
     </android.support.design.widget.TextInputLayout>
@@ -45,7 +45,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Add to database"
+        android:text="@string/add_to_db"
         android:id="@+id/button"
         android:layout_below="@+id/view"
         android:layout_centerHorizontal="true"

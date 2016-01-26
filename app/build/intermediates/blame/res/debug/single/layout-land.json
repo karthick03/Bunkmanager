@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/layout-land/materialcolorpicker__layout_color_picker_old_android.xml",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/layout-land/materialcolorpicker__layout_color_picker_old_android.xml"
+    },
+    {
+        "merged": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/res/merged/debug/layout-land/materialcolorpicker__layout_color_picker.xml",
+        "source": "/Users/aravind/Downloads/Bunkmanager/app/build/intermediates/exploded-aar/com.pes.materialcolorpicker/library/1.0.1/res/layout-land/materialcolorpicker__layout_color_picker.xml"
+    }
+]

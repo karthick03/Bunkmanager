@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        button=(Button)findViewById(R.id.button2);
+        button=(Button)findViewById(R.id.button2);//display subjects button
         bunkbutton=(Button)findViewById(R.id.button3);
 
         button.setOnClickListener(new View.OnClickListener() {

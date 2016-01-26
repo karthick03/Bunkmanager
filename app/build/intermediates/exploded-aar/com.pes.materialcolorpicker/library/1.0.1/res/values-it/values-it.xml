@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Simo/GitHub/android-material-color-picker-dialog/library/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="materialcolorpicker__app_name">Android Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__btnSelectColor">Seleziona</string>
+    <string name="materialcolorpicker__descLib">Material Color Picker Dialog</string>
+    <string name="materialcolorpicker__errHex">Codice HEX errato</string>
+    <string name="materialcolorpicker__inputColor">Colore: </string>
+</resources>
